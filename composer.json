@@ -1,0 +1,20 @@
+{
+  "name": "stevector/wp-hacky-proxy",
+  "description": "PoC proxying to GCP Buckets from Pantheon",
+  "type": "wordpress-plugin",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/octahedroid/hacky-proxy"
+    }
+  ],
+  "require": {
+    "stevector/hacky-proxy": "dev-master"
+  },
+  "authors": [
+    {
+      "name": "Steve Persch",
+      "email": "steve.persch@pantheon.io"
+    }
+  ]
+}
