@@ -2,24 +2,24 @@
 
 ## Description
 
-This wordpress plugin set up a proxy for all routes using the 
+This library sets up a proxy for all routes on the site and forward routes to a domain where the static site is deployed.
+
+The only routes that are allowed are ones that are configured via the library i.e. those containing 'php', '/wp/', and 'wp-admin.php',
+
+You can set a different array of URLs using the `setSkipUrls` method, or add more using the `addSkipUrls` method.
 
 ### Usage
 
-#### Add the plugin to the most used plugins directory
+#### When not using composer
 
-```bash
+TBD...
 
-/wp-content/mu-plugins
-```
+#### When using composer
 
-Add a new file named `wp-hacky-proxy.php` on your `/wp-content/mu-plugins` directory, containing the following PHP code.
+Add a new file named `proxy-loader.php` on your composer root project containing the following PHP code.
 
 ```php
 <?php
-
-// Autoload composer dependencies
-require $_ENV['HOME'] . '/code/wp-content/mu-plugins/wp-hacky-proxy/vendor/autoload.php';
 
 // Create new PantheonToGCPBucket instance
 $hackyproxy = new \Stevector\HackyProxy\PantheonToGCPBucket();
