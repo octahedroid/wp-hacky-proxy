@@ -709,18 +709,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/octahedroid/hacky-proxy.git",
-            "reference": "d48b415753ff18861e34c58ef09c8902e46c4e6a"
+            "reference": "2841d85f3dfa081565da2b7d128adf689451bd83"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/octahedroid/hacky-proxy/zipball/d48b415753ff18861e34c58ef09c8902e46c4e6a",
-            "reference": "d48b415753ff18861e34c58ef09c8902e46c4e6a",
+            "url": "https://api.github.com/repos/octahedroid/hacky-proxy/zipball/2841d85f3dfa081565da2b7d128adf689451bd83",
+            "reference": "2841d85f3dfa081565da2b7d128adf689451bd83",
             "shasum": ""
         },
         "require": {
             "jenssegers/proxy": "^3.1"
         },
-        "time": "2020-04-01T02:27:15+00:00",
+        "time": "2020-07-15T01:09:07+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {
